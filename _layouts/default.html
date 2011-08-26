@@ -13,8 +13,9 @@
 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="js/libs/jflickrfeed/colorbox/colorbox.css">
 
 	<!--[if lt IE 9]>
 	<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -30,16 +31,20 @@
         {{ content }}
 	</div>
 	<footer>
-
+		Powered by 
+			<a href="https://github.com/ArnaudD/arnaudd.github.com">Github</a> - 
+			<a href="https://github.com/mojombo/jekyll">Jekyll</a> - 
+			<a href="http://html5boilerplate.com">HTML5 Boilerplate</a>
 	</footer>
 </div> <!--! end of #container -->
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="js/libs/jquery-1.6.2.min.js"><\/script>')</script>
-
+<script type="text/javascript" src="js/libs/jflickrfeed/colorbox/jquery.colorbox-min.js"></script>
+<script type="text/javascript" src="js/libs/jflickrfeed/jflickrfeed.min.js"></script>
 <script src="js/script.js"></script>
 <script>
-	var _gaq=[['_setAccount','UA-355562-2'],['_trackPageview']]; // Change UA-XXXXX-X to be your site's ID
+	var _gaq=[['_setAccount','UA-355562-2'],['_trackPageview']];
 	(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.async=1;
 	g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
 	s.parentNode.insertBefore(g,s)}(document,'script'));
