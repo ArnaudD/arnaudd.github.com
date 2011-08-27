@@ -1,0 +1,44 @@
+--- 
+layout: post
+title: PHP, Vim & CTags, ou comment naviguer rapidement dans vos sources
+published: true
+meta: 
+  _edit_last: "1"
+tags: 
+- ctags
+- "D\xC3\xA9faut"
+- php
+- vim
+type: post
+status: publish
+---
+Ce billet est certainement les millionième howto du web sur vim+ctags. Je partage quand même ce mémo au cas où il soit utile à quelqu'un.
+
+<pre lang="BASH"> $ sudo aptitude install exuberant-ctags</pre>
+Ajoutez les lignes suivantes au fichier ~/.vimrc :
+<pre lang="vimrc">set tags=tags;/ " Permet de rechercher un fichier "tags" en remontant depuis le répertoire courant jusqu'à la racine jusqu'à ce qu'il soit trouvé
+map  :tab split:exec("tag ".expand(""))
+map  :vsp :exec("tag ".expand(""))</pre>
+Ajoutez ceci à votre ~/.bashrc ou ~/.bash_aliases :
+<pre lang="BASH">phptags () {
+    ctags-exuberant -h ".php" -R                     \
+        --exclude="\.svn"                            \
+        --totals=yes                                 \
+        --tag-relative=yes                           \
+        --PHP-kinds=+cf                              \
+        --regex-PHP='/abstract class ([^ ]*)/\1/c/'  \
+        --regex-PHP='/interface ([^ ]*)/\1/c/'       \
+        --regex-PHP='/(public |static |abstract |protected |private )+function ([^ (]*)/\2/f/'
+}</pre>
+Puis placez vous à la racine de votre projet
+<pre lang="BASH"> $ phptags</pre>
+Un fichier tags devrait avoir été créé, et devrait être pris en compte au prochain démarrage de vim.
+
+Voici donc les différentes façon de naviguer dans vos sources (en vous plaçant au début d'un appel de fonction) :
+<ul>
+	<li><strong>Control ]</strong> Devrait vous amener à la définition de la fonction/classe (= <strong>Control ClicGauche</strong>)</li>
+	<li><strong>Control T</strong> Vous ramènera à l'appel de la fonction (= <strong>Control ClicDroit</strong>)</li>
+	<li><strong>Control W Control ]</strong> Ouvrira la définition dans un panneau horizontal </li>
+	<li><strong>Alt ]</strong> Ouvrira la définition dans un panneau vertical</li>
+	<li><strong>Control \ </strong> Ouvrira la définition dans un nouvel onglet</li>
+</ul>

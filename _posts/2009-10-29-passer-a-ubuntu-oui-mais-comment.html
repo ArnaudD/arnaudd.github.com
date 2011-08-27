@@ -1,0 +1,65 @@
+--- 
+layout: post
+title: "Passer \xC3\xA0 ubuntu ? oui, mais comment ?"
+published: true
+meta: 
+  _edit_last: "1"
+tags: 
+- "D\xC3\xA9faut"
+- linux
+- open source
+- ubuntu
+type: post
+status: publish
+---
+﻿Ubuntu 9.10 (aka Karmic Koala) is born ! Voici une nouvelle excuse pour pousser mon entourage à passer sous Ubuntu !
+
+Pour les plus réticents <a href="http://wubi-installer.org">Wubi</a> vous permettra d'installer Ubuntu comme <a href="http://wubi-installer.org/screenshots.php">un simple programme Windows</a> au cas où vous auriez peur de faire une bêtise. Vous pourrez ainsi le désinstaller comme tout autre programme Windows. L'inconvénient de cette solution est qu'elle ne sera plus fonctionnelle en cas de caprices de votre Windows.
+
+Pour les autres, vous pourrez suivre la <a href="http://doc.ubuntu-fr.org">documentation française</a> qui détaille toutes <a href="http://doc.ubuntu-fr.org/installation_graphique">les étapes de l'installation</a> (prévoir entre 15 et 30min).
+
+Dans tous les cas, il ne vous coûte rien d'essayer le live CD (ou très pratique <a href="http://doc.ubuntu-fr.org/unetbootin">live USB</a>) qui est sans AUCUN risque pour votre système.
+
+Une fois celui-ci installé, voici ma sélection de paquets à installer pour vous éviter quelques recherches. Pour vous dire à quel point Ubuntu est une distribution "clefs en main", cette courte sélection représente 90% des applications installées manuellement sur mon système.
+
+Pour les novices, plus il y a de "+" à coté des noms, plus les applications sont réservées aux utilisateurs "avancés". Faites votre choix.
+
+Les commandes suivantes sont à taper dans un terminal (Menu "Applications" &gt; "Accessoires"). C'est une méthode pratique lorsque le nombre de programmes à installer est assez important. Mais rien ne vous empêche d'utiliser la "Logithèque Ubuntu" disponible dans le menu principal. Vous pourrez d'ailleurs l'utiliser pour désinstaller un programme qui ne vous convient pas; ou taper la commande suivante :
+<pre lang="BASH">sudo aptitude remove nom_du_programme</pre>
+<h2>Web</h2>
+<h4>Google Chrome</h4>
+<pre lang="BASH"> sudo add-apt-repository ppa:chromium-daily/ppa sudo aptitude update sudo aptitude install chromium-browser</pre>
+<h4>Notifications Firefox</h4>
+<pre lang="BASH">sudo aptitude install firefox-notify</pre>
+<h4>Filezilla (client FTP) (++)</h4>
+<pre lang="BASH"> sudo aptitude install filezilla</pre>
+<h4>Notifications d'une boîte gmail :</h4>
+<pre lang="BASH"> sudo aptitude install checkgmail sudo checkgmail -update # répondre 'Y' à la question posée</pre>
+<h2>Outils d'administration du système</h2>
+<h4><em>Unp</em> pour extraire depuis un terminal des fichiers compressés (+++) et ''Terminator'' un terminal multi-panneaux</h4>
+<pre lang="BASH"> sudo aptitude install unp  terminator</pre>
+<h4>Démarrage et contrôle d'un ordinateur à distance par un terminal (+ + + +) :</h4>
+<pre lang="BASH"> sudo aptitude install wakeonlan openssh-server</pre>
+<h4>GSmartControl (pour vérifier la santé de son disque dur) (++) :</h4>
+<pre lang="BASH"> sudo aptitude install gsmartcontrol</pre>
+<h2>Outils divers</h2>
+<h4><a href="http://doc.ubuntu-fr.org/gnome-do">Gnome Do</a></h4>
+<pre lang="BASH"> sudo add-apt-repository ppa:do-core/ppa sudo aptitude update sudo aptitude install gnome-do gnome-do-docklets gnome-do-plugin-rhythmbox gnome-do-plugins</pre>
+<h4><a href="http://doc.ubuntu-fr.org/wine">Wine</a> (permet d'exécuter des fichiers .exe) (+++)</h4>
+<pre lang="BASH"> sudo aptitude install wine</pre>
+<h4><a href="http://doc.ubuntu-fr.org/virtualbox">Virtualbox</a> (permet de lancer Windows depuis Ubuntu) (+++) :</h4>
+<pre lang="BASH"> sudo -s echo "deb http://download.virtualbox.org/virtualbox/debian karmic non-free" >> /etc/apt/sources.list wget -q http://download.virtualbox.org/virtualbox/debian/sun_vbox.asc -O- | sudo apt-key add - aptitude update &amp;&amp; aptitude install virtualbox-3.0</pre>
+<h2>Multimédia Codecs et lecteurs multimédia</h2>
+<pre lang="BASH"> sudo aptitude install ubuntu-restricted-extras  adobe-flashplugin smplayer vlc lastfm subdownloader rhythmbox</pre>
+<h2>Développement web</h2>
+<h4>Serveur web</h4>
+<pre lang="BASH"> sudo aptitude install php5 php5-mysql apache2 mysql-server phpmyadmin php-pear php5-ldap</pre>
+<h4>Editeur</h4>
+<pre lang="BASH"> sudo aptitude install  vim-full vim-gnome</pre>
+<h4>Gestionnaires de versions</h4>
+<pre lang="BASH"> sudo aptitude install mercurial git subversion meld colordiff</pre>
+<h4>Pipette de couleurs (vive les traductions qui sonnent faux) :</h4>
+<pre lang="BASH"> sudo aptitude install gcolor2</pre>
+Have fun !
+
+et n'hésitez pas à poser vos questions ici ou sur <a href="http://forum.ubuntu-fr.org">le forum d'ubuntu-fr.or</a>.

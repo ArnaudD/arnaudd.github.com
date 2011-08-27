@@ -1,10 +1,7 @@
 ---
 layout: default
-title: "Arnaud Didry homepage"
+title: "Arnaud.Didry.info"
 ---
-
-Arnaud.Didry.info
-=================
 
 Développeur passionné par le web et l'open source, je suis à la recherche d'un nouvel emploi en région Parisienne, mon CV est disponible sur [LinkedIn](http://fr.linkedin.com/in/arnauddidry) ou [Viadeo](http://www.viadeo.com/fr/profile/arnaud.didry).
 
@@ -13,7 +10,7 @@ Cette page est un complément qui regroupe mes différentes activités sur Inter
 Projets
 -------
 
-Les projets suivant ont été initiés par l'Université d'Avignon, et 
+J'ai développé les projets libres suivants à l'Université d'Avignon ainsi que pendant mon temps libre.
 
 * [FileZ](https://github.com/UAPV/FileZ)
 * [Manitou](https://github.com/UAPV/Manitou)
@@ -33,33 +30,33 @@ Contributions à des projets libres
 Expérimentations
 ----------------
 
-* Node.js, Websockets & SVG, CoffeeScript : [NodeJSnake](https://github.com/ArnaudD/nodejsnake) 
+* Node.js, Websockets, SVG, CoffeeScript : [NodeJSnake](https://github.com/ArnaudD/nodejsnake) 
 * HTML5 : File API, Canvas, CoffeeScript : [Ding-Ding-Dong.me](https://github.com/ArnaudD/ding-ding-dong.me)
+* Javascript, jQuery : [jquery.sso-bg-connect.js](https://github.com/ArnaudD/jquery.sso-bg-connect)
 * XUL, XPCOM, C++, CSS : Client pour le serveur de musique XMMS2
 * C++, glade, gtkmm, glibmm, pthread, autoconf, automake : Programmation d'un serveur de messagerie instantannée et de son client (Projet universitaire)
 
 
-Live feed
----------
-
-TODO : twitter & Google+ & Delicious & Blog
-
 Articles
 --------
 
-TODO
+<ul class="posts">
+  {% for post in site.posts %}
+    <li><span class="date">{{ post.date | date_to_string }}</span> <span class="separator">&raquo;</span> <a href="{{ post.url }}">{{ post.title | escape }}</a></li>
+  {% endfor %}
+</ul>
 
 Photos
 ------
 
-Dernière photos publiées sur [Flickr](http://www.flickr.com/photos/rnok/) :
+Dernières photos publiées sur [Flickr](http://www.flickr.com/photos/rnok/) :
 
 <ul id="flickrfeed" class="thumbs"> </ul>
 
 Lectures
 --------
 
-Livres lus ou en cours de lecture dans l'ordre chronologique
+Livres lus ou en cours de lecture.
 
 <ul id="reading-list" class="thumbs">
   <li><a href="http://www.amazon.com/gp/product/144930351X"><img src="http://ecx.images-amazon.com/images/I/51UcgbOYs6L._SL500_SX85_.jpg"   title="Javascript Web Applications" /></a></li>
@@ -74,18 +71,19 @@ Livres lus ou en cours de lecture dans l'ordre chronologique
 
 Derniers bookmarks sur Delicious
 
-<script type="text/javascript" src="http://feeds.delicious.com/v2/js/arnaud.didry?title=&count=7&bullet=%C2%BB&sort=date&tags&name"> </script>
+<script type="text/javascript" src="http://feeds.delicious.com/v2/js/arnaud.didry?title=&count=7&sort=date&tags&name"> </script>
 
 Divers
 ------
 
-* [CoderWall](http://coderwall.com/ArnaudD)
+* [Delicious](http://www.delicious.com/arnaud.didry)
 * [Twitter](http://twitter.com/ArnaudD)
+* [Google+](https://plus.google.com/102914839483245880964)
 * [Github](http://github.com/ArnaudD)
 * [Ohloh](http://www.ohloh.net/accounts/ArnaudD)
 * [Masterbranch](https://www.masterbranch.com/developer/arnaud.didry)
-* [Delicious](http://www.delicious.com/arnaud.didry)
-* [Google+](https://plus.google.com/102914839483245880964)
+* [CoderWall](http://coderwall.com/ArnaudD)
+* [Last.fm](www.lastfm.fr/user/ArnaudD)
 
 Mot clefs
 ---------

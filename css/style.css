@@ -49,11 +49,7 @@ body, button, input, select, textarea { font-family: sans-serif; color: #222; }
    Links
    ========================================================================== */
 
-a { color: #00e; }
-a:visited { color: #551a8b; }
 a:focus { outline: thin dotted; }
-
-/* Improve readability when focused and hovered in all browsers: people.opera.com/patrickl/experiments/keyboard/test */
 a:hover, a:active { outline: 0; }
 
 
@@ -62,17 +58,11 @@ a:hover, a:active { outline: 0; }
    ========================================================================== */
 
 abbr[title] { border-bottom: 1px dotted; }
-
 b, strong { font-weight: bold; }
-
 blockquote { margin: 1em 40px; }
-
 dfn { font-style: italic; }
-
 hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0; }
-
 ins { background: #ff9; color: #000; text-decoration: none; }
-
 mark { background: #ff0; color: #000; font-style: italic; font-weight: bold; }
 
 /* Redeclare monospace font family: en.wikipedia.org/wiki/User:Davidgothberg/Test59 */
@@ -115,18 +105,13 @@ img { border: 0; -ms-interpolation-mode: bicubic; }
 /*
  * Correct overflow displayed oddly in IE9 
  */
-
-svg:not(:root) {
-    overflow: hidden;
-}
-
+svg:not(:root) { overflow: hidden; }
 
 /* =============================================================================
    Figures
    ========================================================================== */
 
 figure { margin: 0; }
-
 
 /* =============================================================================
    Forms
@@ -201,30 +186,42 @@ table { border-collapse: collapse; border-spacing: 0; }
    Author: 
    ========================================================================== */
 
-html {
-	background: #e3dfdb;
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%
+	background: #F5F5F5;
+}
+
+body {
 	background: -moz-linear-gradient(top, hsl(30,13%,87%) 0%, hsl(0,0%,96%) 43%);
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,hsl(30,13%,87%)), color-stop(43%,hsl(0,0%,96%)));
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,hsl(30,13%,87%)), color-stop(43%,hsl(0,0%,96%))) fixed;
 	background: -webkit-linear-gradient(top, hsl(30,13%,87%) 0%,hsl(0,0%,96%) 43%);
 	background: -o-linear-gradient(top, hsl(30,13%,87%) 0%,hsl(0,0%,96%) 43%);
 	background: -ms-linear-gradient(top, hsl(30,13%,87%) 0%,hsl(0,0%,96%) 43%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e3dfdb', endColorstr='#f4f4f4',GradientType=0 );
 	background: linear-gradient(top, hsl(30,13%,87%) 0%,hsl(0,0%,96%) 43%);
+	background-repeat: no-repeat;
+	font-size: 16px; 
+	color: #444; 
 }
-
-body { font-size: 16px; color: #444; }
 
 body, button, input, select, textarea { font-family: 'Ubuntu', sans-serif; font-weight: 300; }
 
-h1 { color: hsl(219, 55%, 46%); }
+h1, a, a:visited { color: hsl(219, 55%, 46%); }
+a { text-decoration: none; }
+a:hover { color: #222; }
 
-h1, h2, h3 { text-shadow: 1px 1px 0px white, 0px 0px 10px rgba(0,0,0,.1); }
+h1, h2, h3 { text-shadow: 1px 1px 0px white, 0px 0px 10px rgba(0,0,0,.1); font-weight: 400; }
+
+h2 { border-bottom: 1px dashed rgba(0, 0, 0, .1); }
 
 #container { margin: 4em auto; width: 650px; }
 
 footer { text-align: center; padding: 6em; }
 
-
+ul, ol { padding: 0 0 0 27px; }
+li { list-style-image: url(../images/bullet.png); }
 
 .thumbs { margin: 0; padding: 0; overflow: hidden; }
 .thumbs li {
@@ -245,8 +242,24 @@ footer { text-align: center; padding: 6em; }
 	overflow-y: hidden;
 }
 
+.delicious-posts ul { padding: 0 0 0 27px; }
 .delicious-tag {
   color: rgba(0,0,0,.5);
+}
+
+.posts {
+	padding: 0;
+}
+.posts li {
+	list-style: none; 
+}
+.posts .date { 
+	width: 6em;
+	display: inline-block;
+}
+.posts .separator {
+	padding-right: .5em;
+	color: rgba(0,0,0,.2);
 }
 
 
