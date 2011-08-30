@@ -10,7 +10,7 @@ tags:
 
 Par défaut Symfony donne un nom de fichier hashé aux fichiers uploadés :
 
-{% highlight php %}
+{% highlight php startinline %}
 sha1($this->getOriginalName().rand(11111, 99999)).$this->getExtension($this->getOriginalExtension());
 {% endhighlight %}
 
@@ -18,7 +18,7 @@ Rien de très explicite pour l'utilisateur qui va télécharger le fichier. Pers
 
 La solution est d'implémenter la méthode `generate{ColonneDuFichier}Filename ($file)` dans la classe du modèle qui va stocker le chemin vers le fichier. Exemple pour la colonne "certificat" :
 
-{% highlight php %}
+{% highlight php startinline %}
 public function generateCertificatFilename ($file)
 {
   return "mynewfilename".$file->getExtension($file->getOriginalExtension());

@@ -9,7 +9,7 @@ tags:
 ---
 Ubuntu 9.10 (aka Karmic Koala) is born ! Voici une nouvelle excuse pour pousser mon entourage à passer sous Ubuntu !
 
-Pour les plus réticents [Wubi](http://wubi-installer.org) vous permettra d'installer Ubuntu comme [un simple programme windows][http://wubi-installer.org/screenshots.php) au cas où vous auriez peur de faire une bêtise. Vous pourrez ainsi le désinstaller comme tout autre programme Windows. L'inconvénient de cette solution est qu'elle ne sera plus fonctionnelle en cas de caprices de votre Windows.
+Pour les plus réticents [Wubi](http://wubi-installer.org) vous permettra d'installer Ubuntu comme [un simple programme windows](http://wubi-installer.org/screenshots.php) au cas où vous auriez peur de faire une bêtise. Vous pourrez ainsi le désinstaller comme tout autre programme Windows. L'inconvénient de cette solution est qu'elle ne sera plus fonctionnelle en cas de caprices de votre Windows.
 
 Pour les autres, vous pourrez suivre la [documentation française](http://doc.ubuntu-fr.org) qui détaille toutes [les étapes de l'installation](http://doc.ubuntu-fr.org/installation_graphique) (prévoir entre 15 et 30min).
 
