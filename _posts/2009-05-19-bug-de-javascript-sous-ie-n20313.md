@@ -11,7 +11,7 @@ tags:
 
 C'est en voulant surveiller le changement de valeur d'un groupe de bouton radio que je me suis rendu compte de ce [serious bug](http://www.quirksmode.org/dom/events/change.html)
 
-<blockquote>IE fires the event when the checkbox or radio is blurred, and not when it is activated. This is a serious bug that requires the user to take another action and prevents a consistent cross-browser interface based on the change event on checkboxes and radios.</blockquote>
+> IE fires the event when the checkbox or radio is blurred, and not when it is activated. This is a serious bug that requires the user to take another action and prevents a consistent cross-browser interface based on the change event on checkboxes and radios.
 
 (Voir le très bon site [Quirksmode.org](http://www.quirksmode.org/dom/events/change.html))
 

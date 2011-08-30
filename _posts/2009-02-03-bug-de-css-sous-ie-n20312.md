@@ -10,13 +10,13 @@ tags:
 
 Comment faire du webdesign en HTML/CSS sans devenir fou ?
 
-<blockquote>CSS and front-end development can be ‘interesting’at times, and shouting at the screen seldom has any affect.</blockquote>
+> CSS and front-end development can be ‘interesting’at times, and shouting at the screen seldom has any affect.
 
 Pour ne pas changer, je viens tomber une 100ème fois sur le bug des blocs qui disparaissent sous IE. Je commence à être rodé et crois reconnaître le bug du hasLayout. [Plusieurs](http://haslayout.net/css/index) [sites](http://www.satzansatz.de/cssd/onhavinglayout.html) sont là pour m'aider, dont [celui de Microsoft](http://msdn.microsoft.com/en-us/library/bb250481.aspx), une honte. Je tente la technique qui consiste à ajouter `zoom: 1;` au conteneur des floats qui posent problème. Cette technique m'a plusieurs fois aidé à résoudre ce bug mais là rien n'a changé.
 
 Après quelques cheveux en moins et quelques recherches, je tombe sur ce [lien](http://www.brunildo.org/test/IE_raf3.html) qui nous dit :
 
-<blockquote>Un bloc avec une position absolue peut disparaître s'il précède ou suit, dans le code source, un bloc en position flotante. [...] N'importe quel bloc (même un div vide) placé dans le code source entre ces deux bloc résous le problème.</blockquote>
+> Un bloc avec une position absolue peut disparaître s'il précède ou suit, dans le code source, un bloc en position flotante. [...] N'importe quel bloc (même un div vide) placé dans le code source entre ces deux bloc résous le problème.
 
 Magnifique ! Une raison de plus de détester/cracher sur IE et Microsoft !
 
