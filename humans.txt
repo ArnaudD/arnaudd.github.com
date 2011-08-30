@@ -10,5 +10,5 @@ Twitter: ArnaudD
 Location: Paris, France
 
 Standards: HTML5, CSS3
-Components: Modernizr, jQuery
-Software:
+Components: Modernizr, jQuery, jflickrfeed
+Software: Vim, Jekyll, Liquid, Pygments, Markdown
