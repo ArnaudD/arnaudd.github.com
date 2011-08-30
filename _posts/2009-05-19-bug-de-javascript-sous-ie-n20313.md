@@ -7,7 +7,7 @@ tags:
 - IE
 ---
 
-À défaut de faire de la pub pour un logiciel libre (ce que j'aimerais continuer d'ici peu) je vais une fois de plus me défouler sur IE. Après un problème de [CSS](/blog/2009/02/03/Bug-de-CSS-sous-IE-n20312) FIXME, voici une n-ème merveille en provenance de Redmond.
+À défaut de faire de la pub pour un logiciel libre (ce que j'aimerais continuer d'ici peu) je vais une fois de plus me défouler sur IE. Après un problème de [CSS](/blog/2009/02/03/bug-de-css-sous-ie-n20312), voici une n-ème merveille en provenance de Redmond.
 
 C'est en voulant surveiller le changement de valeur d'un groupe de bouton radio que je me suis rendu compte de ce [serious bug](http://www.quirksmode.org/dom/events/change.html)
 

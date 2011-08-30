@@ -15,7 +15,7 @@ L'utilisation intensive du javascript afin d'ajouter des effets visuels où des 
 
 Jusqu'à présent, pour des raisons de simplicité, de navigateurs ne respectant pas les standards, et de performances des moteurs javascripts, nous (développeurs) avons été bridés et n'avons pas utilisé tout le potentiel des outils standardisés par le W3C. Mais les choses ont avancé très vite ces derniers temps. La compétition est lancée entre les navigateurs pour savoir lequel aura le moteur Javascript le plus rapide : [TraceMonkey](http://ejohn.org/blog/tracemonkey/) (Firefox), [SquirrelFish Extreme](http://webkit.org/blog/214/introducing-squirrelfish-extreme/) (Webkit), [V8](http://code.google.com/p/v8/) (Google Chrome) !
 
-[Et pendant ce temps là, Microsoft apprend à faire ses lacets](http://standblog.org/blog/post/2008/09/19/SquirrelFish-Extreme)
+["Et pendant ce temps là, Microsoft apprend à faire ses lacets"](http://standblog.org/blog/post/2008/09/19/SquirrelFish-Extreme)
 
 C'est le début d'un tournant dans le développement de véritables applications web. Mais pour cela, il faut optimiser l'architecture actuelle un peu vieillotte : allégeons les serveurs et dynamisons les clients !Passons d'une architecture "server-centric" à "client-centric".
 
@@ -28,7 +28,7 @@ Dans cette architecture, le client [incombe](http://www.youtube.com/watch?v=HoA6
 
 Voici un schéma résumant la situation :
 
-<a href="http://wp.didry.info/wp-content/uploads/2010/03/client-server-20-architecture1.png"><img class="aligncenter size-full wp-image-187" title="client-server-20-architecture1" src="http://wp.didry.info/wp-content/uploads/2010/03/client-server-20-architecture1.png" alt="" width="450" height="398" /></a>
+<a href="/uploads/client-server-20-architecture1.png"><img class="aligncenter size-full wp-image-187" title="client-server-20-architecture1" src="/uploads/client-server-20-architecture1.png" alt="" width="450" height="398" /></a>
 
 ([Source](http://www.it-eye.nl/weblog/2008/09/24/what-is-client-server-20))
 
@@ -62,7 +62,7 @@ Ce dont nous avons besoin est donc un véritable framework de développement jav
 
 ### Google Web Toolkit (GWT) ###
 
-<a href="http://wp.didry.info/wp-content/uploads/2010/03/gwt-logo.png"><img class="alignright size-full wp-image-190" title="gwt-logo" src="http://wp.didry.info/wp-content/uploads/2010/03/gwt-logo.png" alt="" width="100" height="100" /></a>
+<a href="/uploads/gwt-logo.png"><img class="alignright size-full wp-image-190" title="gwt-logo" src="/uploads/gwt-logo.png" alt="" width="100" height="100" /></a>
 
 GWT propose aux développeurs de créer une application web en l'écrivant à la manière d'une IHM Java standard. Les outils fournis par Google se chargent ensuite de "traduire" le code Java en Javascript et HTML. Les principes sont exactement ceux évoqués plus haut : l'interface graphique en HTML est manipulée par du code javascript, et l'échange de données avec le serveur est réduit au minimum par le biais d'appels RPC.
 
@@ -74,7 +74,7 @@ Vous trouverez un guide de démarrage avec GWT [ici](http://www.vogella.de/artic
 
 ### Sproutcore ###
 
-<a href="http://wp.didry.info/wp-content/uploads/2010/03/logo.png"><img class="alignright size-full wp-image-192" title="logo" src="http://wp.didry.info/wp-content/uploads/2010/03/logo.png" alt="" width="277" height="62" /></a>
+<a href="/uploads/logo.png"><img class="alignright size-full wp-image-192" title="logo" src="/uploads/logo.png" alt="" width="277" height="62" /></a>
 
 Avec Sproutcore le développeur doit écrire chaque entité du modèle MVC en Javascript. Tout comme plusieurs framework (php|ruby|python), Sproutcore propose de générer des squelettes de classe pour vos modèles et contrôleurs. Les vues sont quant à elles écrites avec le moteur de template  eRuby puis traduites en HTML.
 
@@ -86,7 +86,7 @@ C'est une démarche intéressante et c'est le framework choisi par Apple pour so
 
 ### Dojo ###
 
-<a href="http://wp.didry.info/wp-content/uploads/2010/03/sellit.png"><img class="alignright size-thumbnail wp-image-194" title="sellit" src="http://wp.didry.info/wp-content/uploads/2010/03/sellit-150x70.png" alt="" width="150" height="70" /></a>
+<a href="/uploads/dojo.png"><img class="alignright size-thumbnail wp-image-194" title="dojo" src="/uploads/dojo.png" alt="" width="150" height="70" /></a>
 
 Dojo propose un tas de widgets pouvant s'interfacer avec des services web et également un système de template.
 
