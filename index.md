@@ -12,9 +12,9 @@ Projets
 
 J'ai développé les projets libres suivants à l'Université d'Avignon ainsi que pendant mon temps libre.
 
-* [FileZ](https://github.com/UAPV/FileZ)
-* [Manitou](https://github.com/UAPV/Manitou)
-* [GroupZ](https://github.com/UAPV/GroupZ)
+* [FileZ](https://github.com/UAPV/FileZ) est une application web de partage de documents utilisant le micro-framework [Limonade PHP](http://www.limonade-php.net). Elle a reçu plusieurs contributions extérieures et a été traduite en 5 langues et a été installée à travers le monde sur plusieurs dizaines de sites.
+* [Manitou](https://github.com/UAPV/Manitou) est utilisé par l'Université d'Avignon pour l'administration (réseau et système) de son parc informatique contenant plusieurs centaines de machines. Elle repose sur le framework symfony (1.4).
+* [GroupZ](https://github.com/UAPV/GroupZ) permet aux étudiants et enseignants de l'Université d'Avignon de créer des groupes de travail par le biais d'une interface web. GroupZ propose à chacun de ces groupes une liste de diffusion ainsi qu'un espace de partage de fichiers. 
 
 Mon [profil Github](https://github.com/ArnaudD).
 

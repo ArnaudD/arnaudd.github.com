@@ -221,6 +221,7 @@ h2 { border-bottom: 1px dashed rgba(0, 0, 0, .1); }
 footer { text-align: center; padding: 6em; }
 
 ul, ol { padding: 0 0 0 27px; }
+ul li, ol li { padding: 3px 0; }
 li { list-style-image: url(../images/bullet.png); }
 
 .thumbs { margin: 0; padding: 0; overflow: hidden; }
@@ -252,6 +253,7 @@ li { list-style-image: url(../images/bullet.png); }
 }
 .posts li {
 	list-style: none; 
+	padding: 0;
 }
 .posts .date { 
 	width: 6em;
