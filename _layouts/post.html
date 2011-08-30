@@ -2,6 +2,12 @@
 layout: default
 ---
 
-<div id="post">
+<div class="post">
+
+	<p class="meta">
+		<span class="date">{{ page.date | date_to_string }}</span>,
+		<span class="tags">Tagged in : {{ page.tags | array_to_sentence_string }} </span>
+	</p>
+
 {{ content }}
 </div>

@@ -262,6 +262,28 @@ li { list-style-image: url(../images/bullet.png); }
 	color: rgba(0,0,0,.2);
 }
 
+.post .meta {
+	color: #8C8987;
+	font-weight: 400;
+	border-bottom: 1px dashed rgba(0,0,0,.2);
+	margin-top: -1em;
+	margin-bottom: 2em; 
+	padding-bottom: 1em; 
+}
+.post .date {
+	color: #333;
+}
+
+.highlight {
+	-moz-box-shadow: 		0 0 10px rgba(0,0,0,0.1);
+	-webkit-box-shadow: 0 0 10px rgba(0,0,0,0.1);
+	box-shadow:					0 0 10px rgba(0,0,0,0.1);
+}
+
+.highlight pre {
+	padding: 10px;
+}
+
 
 /* =============================================================================
    Non-semantic helper classes
