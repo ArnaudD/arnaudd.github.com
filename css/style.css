@@ -218,11 +218,37 @@ h2 { border-bottom: 1px dashed rgba(0, 0, 0, .1); }
 
 #container { margin: 4em auto; width: 650px; }
 
-footer { text-align: center; padding: 6em; }
+footer { text-align: center; padding: 6em 0; }
 
 ul, ol { padding: 0 0 0 27px; }
 ul li, ol li { padding: 3px 0; }
 li { list-style-image: url(../images/bullet.png); }
+
+header,
+#home h2 { position: relative; }
+
+header:after,
+#home h2:after {
+	content: "";
+	position: absolute;
+	top: 30px;
+	left: -140px;
+	display: block;
+	background-repeat: no-repeat;
+	background-position: center top;
+	width: 100px;
+	height: 100px;
+}
+header:after { background-image: url(../images/categories/about.png); }
+#home h2#projets:after { background-image: url(../images/categories/project.png); }
+#home h2#contributions__des_projets_libres:after { background-image: url(../images/categories/share.png); }
+#home h2#exprimentations:after { background-image: url(../images/categories/lab.png); }
+#home h2#articles:after { background-image: url(../images/categories/blog.png); }
+#home h2#photos:after { background-image: url(../images/categories/photo.png); }
+#home h2#lectures:after { background-image: url(../images/categories/readings.png); }
+#home h2#divers:after { background-image: url(../images/categories/roadsign.png); }
+#home h2#mots_clefs:after { background-image: url(../images/categories/key.png); }
+#home h2#contact:after { background-image: url(../images/categories/contact.png); }
 
 .thumbs { margin: 0; padding: 0; overflow: hidden; }
 .thumbs li {

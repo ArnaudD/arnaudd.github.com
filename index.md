@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: home
 title: "Arnaud.Didry.info"
 ---
 
@@ -12,7 +12,7 @@ Projets
 
 J'ai développé les projets libres suivants à l'Université d'Avignon ainsi que pendant mon temps libre.
 
-* [FileZ](https://github.com/UAPV/FileZ) est une application web de partage de documents utilisant le micro-framework [Limonade PHP](http://www.limonade-php.net). Elle a reçu plusieurs contributions extérieures et a été traduite en 5 langues et a été installée à travers le monde sur plusieurs dizaines de sites.
+* [FileZ](https://github.com/UAPV/FileZ) est une application web de partage de documents utilisant le micro-framework [Limonade PHP](http://www.limonade-php.net). Elle a reçu plusieurs contributions extérieures, a été traduite en 5 langues et a été installée à travers le monde sur plusieurs dizaines de sites.
 * [Manitou](https://github.com/UAPV/Manitou) est utilisé par l'Université d'Avignon pour l'administration (réseau et système) de son parc informatique contenant plusieurs centaines de machines. Elle repose sur le framework symfony (1.4).
 * [GroupZ](https://github.com/UAPV/GroupZ) permet aux étudiants et enseignants de l'Université d'Avignon de créer des groupes de travail par le biais d'une interface web. GroupZ propose à chacun de ces groupes une liste de diffusion ainsi qu'un espace de partage de fichiers. 
 
@@ -85,8 +85,8 @@ Divers
 * [CoderWall](http://coderwall.com/ArnaudD)
 * [Last.fm](www.lastfm.fr/user/ArnaudD)
 
-Mot clefs
----------
+Mots clefs
+----------
 
 * PHP
 * symfony
@@ -99,6 +99,16 @@ Mot clefs
 * DRY
 * KISS
 * FOSS
+
+Contact
+-------
+Arnaud Didry
+
+[34 Rue de Saussure, 75017 Paris](http://maps.google.fr/maps?q=34+Rue+de+Saussure,+75017+Paris)
+
+[arnaud@didry.info](mailto:arnaud@didry.info)
+
+[06 87 03 50 59](tel:0687035059)
 
 
 
