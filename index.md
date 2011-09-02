@@ -16,12 +16,12 @@ J'ai développé les projets libres suivants à l'Université d'Avignon ainsi qu
 * [Manitou](https://github.com/UAPV/Manitou) est utilisé par l'Université d'Avignon pour l'administration (réseau et système) de son parc informatique contenant plusieurs centaines de machines. Elle repose sur le framework symfony (1.4).
 * [GroupZ](https://github.com/UAPV/GroupZ) permet aux étudiants et enseignants de l'Université d'Avignon de créer des groupes de travail par le biais d'une interface web. GroupZ propose à chacun de ces groupes une liste de diffusion ainsi qu'un espace de partage de fichiers. Cette application utilise également le framework symfony.
 
-Mon [profil Github](https://github.com/ArnaudD).
+Mon [profil Github](https://github.com/ArnaudD), et celui de [l'Université d'Avignon](https://github.com/UAPV).
 
 Contributions à des projets libres
 ----------------------------------
 
-* [sfPropel15Plugin](https://github.com/fzaninotto/sfPropel15Plugin/commit/b7c9e89c4e841093149cfcb57aa98e4d58ac0260)
+* [sfPropel15Plugin](https://github.com/fzaninotto/sfPropel15Plugin/commits/1.6?author=ArnaudD)
 * [Propel](http://www.propelorm.org/ticket/1011)
 * [Horde](http://bugs.horde.org/ticket/8716)
 * [GLPI](http://www.glpi-project.org/forum/viewtopic.php?id=22619)
@@ -59,19 +59,19 @@ Lectures
 Livres lus ou en cours de lecture.
 
 <ul id="reading-list" class="thumbs">
-  <li><a href="http://www.amazon.com/gp/product/144930351X"><img src="http://ecx.images-amazon.com/images/I/51UcgbOYs6L._SL500_SX85_.jpg"   title="Javascript Web Applications" /></a></li>
-  <li><a href="http://www.amazon.com/gp/product/1430224339"><img src="http://ecx.images-amazon.com/images/I/51JElmRYk5L._SL500_SX85_.jpg"   title="Beginning Rails 3" /></a></li>
-  <li><a href="http://www.amazon.com/gp/product/0596516177"><img src="http://ecx.images-amazon.com/images/I/415NS3cmtrL._SL500_SX85_.jpg"   title="The Ruby programming language" /></a></li>
-  <li><a href="http://www.amazon.com/gp/product/1430218339"><img src="http://ecx.images-amazon.com/images/I/51QmI82PSNL._SL500_SX85_.jpg"   title="Pro Git" /></a></li>
-  <li><a href="http://www.amazon.com/gp/product/2212125690"><img src="http://ecx.images-amazon.com/images/I/41GeW87lpcL._SL500_SX85_.jpg"   title="Programmation GWT2" /></a></li>
-  <li><a href="http://www.amazon.com/gp/product/1430322640"><img src="http://ecx.images-amazon.com/images/I/51Lh-m%2Bp6nL._SL500_SX85_.jpg" title="Scrum and XP from the Trenches" /></a></li>
-  <li><a href="http://www.amazon.com/gp/product/2212116756"><img src="http://ecx.images-amazon.com/images/I/51F5VQ9Y1AL._SL500_SX85_.jpg"   title="XUL" /></a></li>
-  <li><a href="http://www.amazon.com/gp/product/2212123698"><img src="http://ecx.images-amazon.com/images/I/514S3pKsZ4L._SL500_SX85_.jpg"   title="Progammation PHP5 Avancée" /></a></li>
+  <li><a href="http://www.amazon.com/gp/product/144930351X" target="_blank" ><img src="http://ecx.images-amazon.com/images/I/51UcgbOYs6L._SL500_SX85_.jpg"   title="Javascript Web Applications" /></a></li>
+  <li><a href="http://www.amazon.com/gp/product/1430224339" target="_blank" ><img src="http://ecx.images-amazon.com/images/I/51JElmRYk5L._SL500_SX85_.jpg"   title="Beginning Rails 3" /></a></li>
+  <li><a href="http://www.amazon.com/gp/product/0596516177" target="_blank" ><img src="http://ecx.images-amazon.com/images/I/415NS3cmtrL._SL500_SX85_.jpg"   title="The Ruby programming language" /></a></li>
+  <li><a href="http://www.amazon.com/gp/product/1430218339" target="_blank" ><img src="http://ecx.images-amazon.com/images/I/51QmI82PSNL._SL500_SX85_.jpg"   title="Pro Git" /></a></li>
+  <li><a href="http://www.amazon.com/gp/product/2212125690" target="_blank" ><img src="http://ecx.images-amazon.com/images/I/41GeW87lpcL._SL500_SX85_.jpg"   title="Programmation GWT2" /></a></li>
+  <li><a href="http://www.amazon.com/gp/product/1430322640" target="_blank" ><img src="http://ecx.images-amazon.com/images/I/51Lh-m%2Bp6nL._SL500_SX85_.jpg" title="Scrum and XP from the Trenches" /></a></li>
+  <li><a href="http://www.amazon.com/gp/product/2212116756" target="_blank" ><img src="http://ecx.images-amazon.com/images/I/51F5VQ9Y1AL._SL500_SX85_.jpg"   title="XUL" /></a></li>
+  <li><a href="http://www.amazon.com/gp/product/2212123698" target="_blank" ><img src="http://ecx.images-amazon.com/images/I/514S3pKsZ4L._SL500_SX85_.jpg"   title="Progammation PHP5 Avancée" /></a></li>
 </ul>
 
-Derniers bookmarks sur Delicious
+Derniers bookmarks sur [Delicious](http://www.delicious.com/arnaud.didry)
 
-<script type="text/javascript" src="http://feeds.delicious.com/v2/js/arnaud.didry?title=&count=7&sort=date&tags&name"> </script>
+<div id="delicious-feed"> </div>
 
 Divers
 ------
