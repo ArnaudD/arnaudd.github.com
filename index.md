@@ -3,7 +3,7 @@ layout: home
 title: "Arnaud.Didry.info"
 ---
 
-Développeur passionné par le web et l'open source, je suis à la recherche d'un nouvel emploi en région Parisienne, mon CV est disponible sur [LinkedIn](http://fr.linkedin.com/in/arnauddidry) ou [Viadeo](http://www.viadeo.com/fr/profile/arnaud.didry) ou en [version PDF](/CV-Arnaud-Didry.pdf).
+Développeur passionné par le web et l'open source, <span style="text-decoration: line-through;">je suis à la recherche d'un nouvel emploi en région Parisienne</span>, mon CV est disponible sur [LinkedIn](http://fr.linkedin.com/in/arnauddidry) ou [Viadeo](http://www.viadeo.com/fr/profile/arnaud.didry) ou en [version PDF](/CV-Arnaud-Didry.pdf).
 
 Cette page est un complément qui regroupe mes différentes activités sur Internet.
 
