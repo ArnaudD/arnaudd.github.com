@@ -21,6 +21,8 @@ Mon [profil Github](https://github.com/ArnaudD), et celui de [l'Université d'Av
 Contributions à des projets libres
 ----------------------------------
 
+* [YUI3](https://github.com/yui/yui3/commits?author=ArnaudD)
+* [InputEx](https://github.com/neyric/inputex/commits?author=ArnaudD)
 * [sfPropel15Plugin](https://github.com/fzaninotto/sfPropel15Plugin/commits/1.6?author=ArnaudD)
 * [Propel](http://www.propelorm.org/ticket/1011)
 * [Horde](http://bugs.horde.org/ticket/8716)
@@ -59,6 +61,9 @@ Lectures
 Livres lus ou en cours de lecture.
 
 <ul id="reading-list" class="thumbs">
+  <li><a href="http://www.amazon.com/gp/product/B0046RERX4" target="_blank" ><img src="http://ecx.images-amazon.com/images/I/514yR3DzpvL._SL500_SX85_.jpg"   title="MongoDB" /></a></li>
+  <li><a href="http://www.amazon.com/gp/product/1617290548" target="_blank" ><img src="http://ecx.images-amazon.com/images/I/51pRuv5BIUL._SL500_SX85_.jpg"   title="Third-Party JavaScript" /></a></li>
+  <li><a href="http://www.amazon.com/gp/product/059680279X" target="_blank" ><img src="http://ecx.images-amazon.com/images/I/51cVVtUSqiL._SL500_SX85_.jpg"   title="High Performance Javascript" /></a></li>
   <li><a href="http://www.amazon.com/gp/product/144930351X" target="_blank" ><img src="http://ecx.images-amazon.com/images/I/51UcgbOYs6L._SL500_SX85_.jpg"   title="Javascript Web Applications" /></a></li>
   <li><a href="http://www.amazon.com/gp/product/1430224339" target="_blank" ><img src="http://ecx.images-amazon.com/images/I/51JElmRYk5L._SL500_SX85_.jpg"   title="Beginning Rails 3" /></a></li>
   <li><a href="http://www.amazon.com/gp/product/0596516177" target="_blank" ><img src="http://ecx.images-amazon.com/images/I/415NS3cmtrL._SL500_SX85_.jpg"   title="The Ruby programming language" /></a></li>
@@ -83,28 +88,25 @@ Divers
 * [Ohloh](http://www.ohloh.net/accounts/ArnaudD)
 * [Masterbranch](https://www.masterbranch.com/developer/arnaud.didry)
 * [CoderWall](http://coderwall.com/ArnaudD)
-* [Last.fm](www.lastfm.fr/user/ArnaudD)
+* [Last.fm](http://www.lastfm.fr/user/ArnaudD)
+* [Spotify](http://open.spotify.com/user/arnaudd)
+* [SoundCloud](https://soundcloud.com/arnaud-didry)
 
 Mots clefs
 ----------
 
-* PHP
-* symfony
-* Propel
-* Doctrine
-* JQuery
-* CoffeeScript
-* Ruby on Rails
+* Javascript / YUI / NodeJS / JQuery
+* Ruby / Rails
+* PHP / symfony / Propel / Doctrine
 * Agilité
-* DRY
-* KISS
+* DRY / KISS
 * FOSS
 
 Contact
 -------
 Arnaud Didry
 
-[34 Rue de Saussure, 75017 Paris](http://maps.google.fr/maps?q=34+Rue+de+Saussure,+75017+Paris)
+[45 Rue des Dames, 75017 Paris](http://maps.google.fr/maps?q=45+Rue+des+Dames,+75017+Paris)
 
 [arnaud@didry.info](mailto:arnaud@didry.info)
 
